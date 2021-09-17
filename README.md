@@ -4,26 +4,6 @@ gh-md-toc
 gh-md-toc — is for you if you **want to generate TOC** (Table Of Content) for a README.md or
 a GitHub wiki page **without installing additional software**.
 
-It's my try to fix a problem:
-
-  * [github/issues/215](https://github.com/isaacs/github/issues/215)
-
-gh-md-toc is able to process:
-
-  * stdin
-  * local files (markdown files in local file system)
-  * remote files (html files on github.com)
-
-gh-md-toc tested on Ubuntu, and macOS High Sierra (gh-md-toc release 0.4.9). If you want it on Windows, you
-better to use a golang based implementation:
-
-  * [github-markdown-toc.go](https://github.com/ekalinin/github-markdown-toc.go)
-
-It's more solid, reliable and with ability of a parallel processing. And
-absolutely without dependencies.
-
-[![Build Status](https://travis-ci.org/ekalinin/github-markdown-toc.svg?branch=master)](https://travis-ci.org/ekalinin/github-markdown-toc)
-
 Table of contents
 =================
 
